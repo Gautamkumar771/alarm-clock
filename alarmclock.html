@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>JavaScript Alarm Clock</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+  <h1>JavaScript Alarm Clock</h1>
+ <div id="clock" class="clock"></div>
+  <div>
+    <label for="hour">Hour:</label>
+    <input type="number" id="hour" min="1" max="12" step="1">
+    <label for="minute">Minute:</label>
+    <input type="number" id="minute" min="0" max="59" step="1">
+    <label for="second">Second:</label>
+    <input type="number" id="second" min="0" max="59" step="1">
+    <label for="ampm">AM/PM:</label>
+    <select id="ampm">
+      <option value="AM">AM</option>
+      <option value="PM">PM</option>
+    </select>
+    <button onclick="setAlarm()">Set Alarm</button>
+  </div>
+  <div id="alarmList"></div>
+  <script src="script.js"></script>
+</body>
+</html>
