@@ -12,6 +12,8 @@ body {
 
 h1 {
   margin-bottom: 20px;
+ font-family: Arial, sans-serif;
+  font-size: 32px;
 }
 
 .clock {
