@@ -105,7 +105,7 @@ startAlarmCheck();
 // Function to play the alarm tune
 function playAlarmTune() {
   
-  const audio = new Audio("C:\Users\gauta\OneDrive\Desktop\basic");
+  const audio = new Audio("./Alarm ClockAlarm.mp3");
   audio.play();
 }
 
